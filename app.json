@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "NCH Parivar Portal",
+    "slug": "nch-parivar-portal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "nch-parivar",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#333788"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nchgroup.parivarportal"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#333788"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.nchgroup.parivarportal"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow NCH Parivar Portal to access your camera for Face Punch."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow NCH Parivar Portal to use your location for Face Punch."
+        }
+      ]
+    ]
+  }
+}
