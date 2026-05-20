@@ -1,0 +1,120 @@
+export const Colors = {
+  primary: '#333788',
+  primaryLight: '#4A4E9C',
+  primaryDark: '#252863',
+  secondary: '#FFFFFF',
+  accent: '#5B5FC7',
+  
+  light: {
+    background: '#F5F6FA',
+    surface: '#FFFFFF',
+    surfaceVariant: '#F0F1F8',
+    text: '#1A1A2E',
+    textSecondary: '#6B6B80',
+    textTertiary: '#9E9EB8',
+    border: '#E2E3EF',
+    borderLight: '#F0F1F8',
+    card: '#FFFFFF',
+    cardShadow: 'rgba(51, 55, 136, 0.08)',
+    error: '#E53935',
+    errorLight: '#FFEBEE',
+    success: '#43A047',
+    successLight: '#E8F5E9',
+    warning: '#FB8C00',
+    warningLight: '#FFF3E0',
+    pending: '#7B61FF',
+    pendingLight: '#EDE7FF',
+    overlay: 'rgba(0, 0, 0, 0.5)',
+    inputBg: '#F5F6FA',
+    statusBar: 'dark',
+  },
+  
+  dark: {
+    background: '#0D0E1A',
+    surface: '#1A1B2E',
+    surfaceVariant: '#232440',
+    text: '#EEEEF5',
+    textSecondary: '#A0A0B8',
+    textTertiary: '#6B6B80',
+    border: '#2D2E4A',
+    borderLight: '#232440',
+    card: '#1A1B2E',
+    cardShadow: 'rgba(0, 0, 0, 0.3)',
+    error: '#EF5350',
+    errorLight: '#2C1515',
+    success: '#66BB6A',
+    successLight: '#152C15',
+    warning: '#FFA726',
+    warningLight: '#2C2215',
+    pending: '#9B8AFF',
+    pendingLight: '#1E1A2E',
+    overlay: 'rgba(0, 0, 0, 0.7)',
+    inputBg: '#232440',
+    statusBar: 'light',
+  },
+};
+
+export const Spacing = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 20,
+  xxl: 24,
+  xxxl: 32,
+  huge: 48,
+};
+
+export const BorderRadius = {
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 20,
+  xxl: 24,
+  pill: 50,
+  circle: 9999,
+};
+
+export const Typography = {
+  fontFamily: {
+    regular: 'Inter_400Regular',
+    medium: 'Inter_500Medium',
+    semiBold: 'Inter_600SemiBold',
+    bold: 'Inter_700Bold',
+  },
+  sizes: {
+    caption: 11,
+    small: 12,
+    body: 14,
+    bodyLarge: 16,
+    subtitle: 18,
+    title: 20,
+    heading: 24,
+    largeHeading: 28,
+    display: 32,
+  },
+};
+
+export const Shadows = {
+  sm: {
+    shadowColor: '#333788',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.06,
+    shadowRadius: 8,
+    elevation: 2,
+  },
+  md: {
+    shadowColor: '#333788',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 16,
+    elevation: 4,
+  },
+  lg: {
+    shadowColor: '#333788',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.15,
+    shadowRadius: 24,
+    elevation: 8,
+  },
+};
